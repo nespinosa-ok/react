@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Menu from './Components/MenuComponents'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -4,6 +4,7 @@ import { Navbar, NavbarBrand} from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import React, { Component } from 'react';
+import Menu from './components/MenuComponents';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <NavbarBrand href='https://www.google.com'>Ristorant Confusion</NavbarBrand>
         </div>
       </Navbar>
+      <Menu />
     </div>
   );
 }
